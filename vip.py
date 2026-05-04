@@ -135,5 +135,4 @@ app.add_handler(CallbackQueryHandler(buton))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, mesaj))
 
 print("relax baba number one")
-app.run_polling()er one")
 app.run_polling()
